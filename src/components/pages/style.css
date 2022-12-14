@@ -17,21 +17,55 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    padding: 2% 5% 2% 5%;
+}
+.info-decoreted {
+    background-color: rgba(237, 237, 233, 0.733);
+    padding: 10% 5% 10% 5%;
     
 }
-.category {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin: 1%;
-    width: 50%;
-    background-color: transparent;
-    border: 1px solid rgb(39, 33, 22);
-
+h1 {
+    font-size: 7vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 3%;
 }
-.category:hover {
-    background-color: rgba(241, 241, 232, 0.505);
-    cursor: pointer;
+img {
+    width: 15vw;
+    height: 15vw;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.categories {
+    padding: 3%;
+}
+.category-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 25vw;
+    padding: 2%;
+    margin: 3%;
+}
+.card-title {
+    font-size: 3vmin;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.price {
+    font-size: 4vmin;
+    text-align: end;
+    color: brown;
+    margin: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card-text {
+    font-size: 2vmin;
+    text-align: justify;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
