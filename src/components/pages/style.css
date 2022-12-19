@@ -25,13 +25,13 @@
     
 }
 h1 {
-    font-size: 7vmin;
+    font-size: 5vmin;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 3%;
 }
 img {
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
     margin: 0 auto;
     margin-bottom: 3%;
 }
@@ -61,7 +61,7 @@ img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .card-text {
-    font-size: 2vmin;
+    font-size: 1.7vmin;
     text-align: justify;
 }
 .buttons {

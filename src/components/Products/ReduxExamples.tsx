@@ -7,8 +7,7 @@ const ReduxExamples = () => {
   );
   return (
     <div>
-      <h1>This is Other page</h1>
-      <h3>Love photo</h3>
+      <h3>Like photos</h3>
       <h2>{store.value}</h2>
       <button onClick={() => dispatch({ type: "counter/incremented" })}>
         Like

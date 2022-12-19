@@ -1,10 +1,10 @@
 import './style.css';
 import Navigation from '../../Navigation';
 import AppRoutes from '../../AppRoutes';
-import MensProducts from '../Products/Mens';
-import WomensProducts from '../Products/Womens';
-import Electronics from '../Products/Electronics';
-import Jewelery from '../Products/Jewelery';
+import MensProducts from '../Products/Categories/Mens';
+import WomensProducts from '../Products/Categories/Womens';
+import Electronics from '../Products/Categories/Electronics';
+import Jewelery from '../Products/Categories/Jewelery';
 import ReduxExamples from '../Products/ReduxExamples';
 const MainPage = () => {
     return (
@@ -21,8 +21,8 @@ const MainPage = () => {
             </div>
             <MensProducts/>
             <WomensProducts/>
-            <Electronics/>
-            <Jewelery/>
+            {/* <Electronics/>
+            <Jewelery/> */}
             <footer>
                 <ReduxExamples/>
             </footer>

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import http from "../../http";
+import http from "../../../http";
 
-const WomensProducts = () => {
+const Electronics = () => {
     const [products, setAllProducts] = useState<any[]>([]);
 
     const getAllProducts = async() => {
         try {
-            const responseData = await http.get("/women's%20clothing");
+            const responseData = await http.get("/electronics");
             if (responseData.status === 200) {
                 setAllProducts(responseData.data);
                 console.log(responseData.data);
@@ -31,7 +31,7 @@ const WomensProducts = () => {
     
     return (
         <div className="categories">
-            <h1>Women's clothing</h1>
+            <h1>Electronics</h1>
             <div className="category-cards">
                 {products.map(product => <div key={product.id} className="card">
                     <img src={product.image}/>
@@ -50,4 +50,4 @@ const WomensProducts = () => {
         </div>
     )
 }
-export default WomensProducts;
+export default Electronics;

@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import MensProducts from './components/Products/Mens';
+import MensProducts from './components/Products/Categories/Mens';
 import MainPage from './components/pages/MainPage';
 const AppRoutes = () => {
     return (
