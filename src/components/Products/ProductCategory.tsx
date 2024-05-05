@@ -1,8 +1,6 @@
-import React, { useContext, useEffect, useMemo, useState } from "react";
-import axios from "axios";
+import { useEffect } from "react";
 import http from "../../http";
 import { useDispatch, useSelector } from "react-redux";
-import { PathContext } from "../Context/PathContext";
 
 const ProductCategory = ({path}: {path: string}) => {
 

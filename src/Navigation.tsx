@@ -1,11 +1,7 @@
-import {Link, useLocation} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './components/pages/style.css';
 const Navigation = () => {
-    
-    const routes = {
-        men: "/men's%20clothing",
-        women: "/women's%20clothing"
-    }
+
     return (
         
             <div className="info">
